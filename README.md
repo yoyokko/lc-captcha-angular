@@ -37,6 +37,9 @@ captcha_verified(response, LUOCAPTCHA) {
 
 See `demo/` for more information.
 
+### Dependence
+
+* jQuery
 
 ### Usage
  

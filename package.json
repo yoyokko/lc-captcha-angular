@@ -1,0 +1,45 @@
+{
+  "name": "lc-captcha-angular",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A lc captcha directive for AngularJS",
+  "main": "dist/lc-captcha-angular.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yoyokko/lc-captcha-angular.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dist": "rm -rf dist; webpack --config webpack.config.prod.js",
+    "prepublish": "npm run dist",
+    "start": "npm run build; cp dist/lc-captcha-angular.js demo/libs/; lite-server -c liteServerConfig.js"
+  },
+  "files": [
+    "dist/lc-captcha-angular.js",
+    "dist/lc-captcha-angular.min.js",
+    "src/lccaptchaScriptLoader.js",
+    "src/directiveDef.js",
+    "src/index.js",
+    "src/validator.js"
+  ],
+  "keywords": [
+    "lc-captcha",
+    "captcha",
+    "angularjs"
+  ],
+  "author": "Edward.Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoyokko/lc-captcha-angular/issues"
+  },
+  "homepage": "https://github.com/yoyokko/lc-captcha-angular",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "lite-server": "^2.2.2",
+    "unminified-webpack-plugin": "^1.1.0",
+    "webpack": "^1.13.2"
+  }
+}

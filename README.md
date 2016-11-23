@@ -1,5 +1,3 @@
-angular captcha directive for 
-
 Luosimao Captcha For AngularJS
 =======================
 
@@ -26,8 +24,8 @@ and open your browser on `http://localhost:8080/`.
 ### Example Html
 
 ```html
- <lccaptcha lc-key="Your-Data-Site-Key" lc-width="100%" lc-verified="vm.captcha_verified(resp, LUOCAPTCHA)">
-                </lccaptcha>
+<lccaptcha lc-key="Your-Data-Site-Key" lc-width="100%" lc-verified="vm.captcha_verified(resp, LUOCAPTCHA)">
+</lccaptcha>
 ```
 
 ```javascript

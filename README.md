@@ -3,7 +3,7 @@ Luosimao Captcha For AngularJS
 
 ## Getting started
 
-This is a directive for AngularJS `^1.2.0`. And ease the way to display a luosimao captcha on your page.
+This is a directive for AngularJS `^1.2.0`. And ease the way to display a [luosimao captcha](https://luosimao.com/service/captcha) on your page.
 
 If you plan to hack on the directives or want to run the example locally, first thing to do is to install NPM dependencies:
 

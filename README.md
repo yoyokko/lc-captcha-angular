@@ -38,6 +38,14 @@ captcha_verified(response, LUOCAPTCHA) {
 See `demo/` for more information.
 
 
+### Usage
+ 
+Use in your project:
+
+```shell
+npm install git://github.com/yoyokko/lc-captcha-angular.git --save
+```
+
 ## LICENSE ##
 
 [MIT License](https://raw.githubusercontent.com/leftstick/BaiduMapForAngularJS/master/LICENSE)

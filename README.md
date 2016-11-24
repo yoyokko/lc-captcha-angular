@@ -33,9 +33,13 @@ captcha_verified(response, LUOCAPTCHA) {
     this.captcha = response;
     this.luocaptcha = LUOCAPTCHA;
 }
+
+reset() {
+    this.luocaptcha.reset();
+}
 ```
 
-See `demo/` for more information.
+See `demo/*` for more information.
 
 ### Dependence
 

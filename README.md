@@ -51,6 +51,13 @@ Use in your project:
 
 ```shell
 npm install git://github.com/yoyokko/lc-captcha-angular.git --save
+
+angular.module('app', ['lccaptcha'])
+
+or
+
+const ngLcCaptcha = require('lc-captcha-angular').ngLuosimaoCaptcha;
+angular.module('app, [ngLcCaptcha])
 ```
 
 ## LICENSE ##

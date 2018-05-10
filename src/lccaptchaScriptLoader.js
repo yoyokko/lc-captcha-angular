@@ -14,7 +14,7 @@ export const loader = function(callback) {
     var scriptResponse = document.createElement('script');
     scriptResponse.type = 'text/javascript';
     var code = 'function luosimaoCaptchaResponse(response) { \
-        angular.element("#luosimao-captcha").scope().getResponse(response); \
+        angular.element(".l-captcha").scope().getResponse(response); \
     };'
     scriptResponse.text = code;
     document.body.appendChild(scriptResponse);

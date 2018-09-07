@@ -31,7 +31,7 @@ export const ngLuosimaoCaptcha = (function() {
                 }
             }
         },
-        template: '<div id="luosimao-captcha" class="l-captcha" data-site-key="{{dataSiteKey}}" data-width="{{dataWidth}}" data-callback="luosimaoCaptchaResponse"></div>'
+        template: '<div class="l-captcha" data-site-key="{{dataSiteKey}}" data-width="{{dataWidth}}" data-callback="luosimaoCaptchaResponse"></div>'
     });
 
     return name;
